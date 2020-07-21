@@ -5,7 +5,7 @@
   }
   
   body {
-    background: #cfd1d4;
+    background: #413d3d;
     font-size: 14px;
     line-height: 22px;
     color: #0c0c0c;
@@ -14,7 +14,7 @@
 
   .container{
     width: 800px;
-    height: 1122px;
+    height: 1100px;
     display: flex;
     margin: 50px auto;
     background: #fff;
@@ -22,7 +22,7 @@
 
   .left_col{
     width: 280px;
-    height: 1122px;
+    height: 1100px;
     background: #000000;
   }
 
@@ -43,8 +43,9 @@
   .left_col_3{
     position: relative;
     width: 100%;
-    height: 498px;
+    height: 426px;
     background: #225565;
+    padding: 25px 0;
   }
 
   img{
@@ -107,20 +108,38 @@
     background: #A99265;
   }
 
-   ul li {
+   .container .left_col .left_col_3 ul li {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
   }
 
-  .skill_name {
-    width: 25%;
+  .title{
+    margin-bottom: 40px;
   }
+
+  
   
   .skill_progress {
-    width: 60%;
+    width: 75%;
+    left: 30px;
     margin: 0 5px;
-    height: 20px;
-    background: #009fd9;
+    height: 25px;
+    background: #ffffff;
     position: relative;
+  }
+
+  span {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 75%;
+    background: #327D9D;
+    font-size: 10px;
+  }
+
+  .align{
+    position: absolute;
+    left: 10px;
+    color: white;
   }
