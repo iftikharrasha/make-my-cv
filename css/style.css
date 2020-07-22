@@ -80,6 +80,30 @@ img{
     left: 110px;
 }
 
+.header4{
+    left: 30px;
+    color: #225565;
+}
+
+.header5{
+  left: 30px;
+  color: #225565;
+}
+
+.header6{
+  left: 60px;
+  color: #225565;
+  font-size: 12px;
+}
+
+.below{
+  top: 40px;
+  left: 60px;
+  color: #225565;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .name{
     position: absolute;
     color: whitesmoke;
@@ -177,6 +201,48 @@ span{
   height: 138px;
   top: 30px;
   background: #F0F0F0;  
+}
+
+.profile{
+  position: absolute;
+  color: #757575;
+  left: 30px;
+  font-size: 12px;
+  padding-right: 30px;
+  text-indent: 30px;
+}
+
+.profile1{
+  top: 60px;
+}
+
+.profile2{
+  top: 200px;
+}
+
+.right_col_left{
+  position: absolute;
+  top: 60px;
+  width: 35%;
+  height: 340px;
+  background: #F0F0F0; 
+}
+
+.right_col_right{
+  position: absolute;
+  top: 60px;
+  left: 183px;
+  width: 65%;
+  height: 340px;
+  background: #F0F0F0; 
+}
+
+.side{
+  position: absolute;
+  color: #757575;
+  top: 20px;
+  left: 60px;
+  font-size: 12px;
 }
 
 
