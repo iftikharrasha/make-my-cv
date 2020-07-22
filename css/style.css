@@ -1,89 +1,95 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-  }
-  
-  body {
+}
+
+body{
     background: #413d3d;
     font-size: 14px;
     line-height: 22px;
     color: #0c0c0c;
     width: 100%;
-  }
+}
 
-  .container{
+.container{
     width: 800px;
     height: 1100px;
     display: flex;
     margin: 50px auto;
     background: #fff;
-  }
+}
 
-  .left_col{
+.left_col{
     width: 280px;
     height: 1100px;
     background: #000000;
-  }
+}
 
-  .left_col_1 {
+.left_col_1{
     position: relative;
     width: 100%;
     height: 300px;
     background: #327D9D;
-  }
+}
 
-  .left_col_2{
+.left_col_2{
     position: relative;
     width: 100%;
     height: 240px;
     background: #225565;
-  }
+}
 
-  .left_col_3{
+.left_col_3{
     position: relative;
     width: 100%;
     height: 426px;
     background: #225565;
     padding: 25px 0;
-  }
+}
 
-  img{
-     position: absolute;
-      width: 200px;
-      height: 200px;
-      top: 25px;
-      left: 35px;
-      border-radius: 50%;
-  }
+img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 25px;
+    left: 35px;
+    border-radius: 50%;
+}
 
-  .header{
+.br{
+    width: 100%;
+    height: 42px;
+    background: #A99265;
+}
+
+.header{
     position: absolute;
     color: whitesmoke;
     top: 20px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
-  }
+}
 
-  .header2{
+.header2{
     left: 95px;
-  }
+}
 
-  .header3{
+.header3{
     left: 110px;
-  }
+}
 
-  .name{
+.name{
     position: absolute;
     color: whitesmoke;
     top: 240px;
     left: 50px;
     font-weight: 700;
     font-size: 20px;
-  }
+}
 
-  .date{
+.date{
     position: absolute;
     top: 265px;
     left: 80px;
@@ -91,55 +97,88 @@
     font-weight: 600;
     text-transform: uppercase;
     color: #225565;
-  }
+}
 
-  .address{
+.address{
     position: absolute;
     color: #B9B9B9;
     top: 60px;
     left: 60px;
     font-size: 12px;
     text-align: center;
-  }
+}
 
-  .br{
-    width: 100%;
-    height: 42px;
-    background: #A99265;
-  }
-
-   .container .left_col .left_col_3 ul li {
+.container .left_col .left_col_3 ul li{
     display: flex;
     margin-bottom: 10px;
     align-items: center;
-  }
+}
 
-  .title{
+.skill{
     margin-bottom: 40px;
-  }
+}
 
-  
-  
-  .skill_progress {
+.progress_bar {
     width: 75%;
     left: 30px;
     margin: 0 5px;
     height: 25px;
     background: #ffffff;
     position: relative;
-  }
+}
 
-  span {
+span{
     position: absolute;
     top: 3px;
     left: 3px;
     height: 75%;
     background: #327D9D;
     font-size: 10px;
-  }
+}
 
-  .align{
+.align{
     position: absolute;
     left: 10px;
     color: white;
-  }
+}
+
+.right_col{
+  width: 520px;
+  height: 1100px;
+  background: #A99265;
+}
+
+.right_col_1{
+  position: relative;
+  width: 100%;
+  height: 270px;
+  background: #F0F0F0;
+}
+
+.right_col_2{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  top: 10px;
+  background: #F0F0F0;  
+}
+
+.right_col_3{
+  position: relative;
+  width: 100%;
+  height: 260px;
+  top: 20px;
+  background: #F0F0F0;  
+}
+
+.right_col_4{
+  position: relative;
+  width: 100%;
+  height: 138px;
+  top: 30px;
+  background: #F0F0F0;  
+}
+
+
+
+
