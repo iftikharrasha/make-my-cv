@@ -1,3 +1,5 @@
+/*******https://github.com/iftikharrasha/make-my-cv******/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body{
-    background: #413d3d;
+    background: #cfcfcf;
     font-size: 14px;
     line-height: 22px;
     color: #0c0c0c;
@@ -198,7 +200,7 @@ span{
 .right_col_4{
   position: relative;
   width: 100%;
-  height: 169px;
+  height: 170px;
   top: 30px;
   background: #F0F0F0;  
 }
