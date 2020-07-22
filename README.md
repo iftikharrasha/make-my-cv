@@ -1,2 +1,2 @@
 # make-my-cv
-Live Preview: iftikharrasha.github.io
+Live Preview: http://iftikharrasha.github.io
